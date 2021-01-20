@@ -1,0 +1,21 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #8ecaeb;
+}
+
+.blog-heading{
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}

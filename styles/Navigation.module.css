@@ -1,0 +1,41 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(2, 19, 66);
+}
+
+.logo-container{
+    color: white;
+    margin: 10px 30px;
+}
+
+.company-logo{
+    border-radius: 50%;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 30px;
+}
+
+.nav-link-home{
+    color: white;
+    margin: 10px;
+}
+
+.nav-link-home:hover{
+    color: rgb(2, 149, 235);
+}
+
+.nav-link-about-us{
+    color: white;
+    margin: 10px;
+}
+
+.nav-link-about-us:hover{
+    color:rgb(2, 149, 235);
+}

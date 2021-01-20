@@ -1,0 +1,45 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(2, 19, 66);
+}
+
+.footer-details{
+    color: white;
+    margin: 10px 30px;
+}
+
+.privacy-and-terms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.privacy-link{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.privacy-link:hover{
+    color: rgb(2, 149, 235);
+}
+
+.terms-link{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.terms-link:hover{
+    color: rgb(2, 149, 235);
+}
+
+.social-media-links{
+    color: white;
+    margin: 10px 30px;
+}
+
+.links{
+    color: rgb(2, 149, 235);
+}
