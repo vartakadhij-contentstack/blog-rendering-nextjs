@@ -40,24 +40,20 @@ function Blog (props) {
                     <div className={styles["aside-heading"]}>
                         <p>Related Links:</p>
                     </div>
-                    <div key={blog.id} className={styles["blog-related-links"]}>
-                        <aside>
-                            <p>
-                                {
-                                    blog.links.map((link)=>{
-                                        return(
-                                            <>
-                                                <Link href={`/blog/${link.id}`}>
-                                                    <a>
-                                                        <p key={link.id}> {link.title} </p>
-                                                    </a>
-                                                </Link>
-                                            </>
-                                        )
-                                    })
-                                }
-                            </p>
-                        </aside>
+                    <div className={styles["blog-related-links"]}>
+                        {
+                            blog.links.map((link, i)=>{
+                                return(
+                                    <div key={i}>
+                                        <Link href={`/blog/${link.id}`}>
+                                            <a>
+                                                <p key={link.id}> {link.title} </p>
+                                            </a>
+                                        </Link>
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>  
